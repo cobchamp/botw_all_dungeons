@@ -1,8 +1,8 @@
 ---
 _project:
   authors:
-    - TaoPlusPlus
-  description: ""
+    - CobChamp
+  description: "Adapted from route/notes by TaoPlusPlus and NewbornAndSalted"
   name: All Dungeons
   url: ""
   version: 0.1.0

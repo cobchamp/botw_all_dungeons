@@ -1,33 +1,13 @@
 Vah Rudania:
 - .dir(E)
-- Kill moblins (ice arrows)
+- Kill moblins (Royal bow/aa) before cutscene trigger
 - _Npc::Goron<Yunobo>:
     line-color: rgb(196,0,0)
     coord: [2142.43, 634.02, -2288.29]
     time-override: 999
 
-- .!!(Escort)
-
-- .code(Cannon 1)
-
-- Avoid skywatcher 1
-- Stasis rock skywatcher 2
-
-- .code(Cannon 2)
-
-- .gale() Mag box skywatcher 1,2:
-    gale: 1
-- Block skywatcher 3 with ramp
-- Mag box moblin
-
-- .code(Cannon 3)
-
-- Mag box skywatcher 1,2
-- .fury() skywatcher 3,4,5:
-    fury: 2
-- Mag box moblins
-
-- .code(Cannon 4)
+- .!!(Escort):
+    notes: use royal/aa to take out all sentries, The moving ones can be hard to hit, maybe worth to go into bullet time to snipe them or use falcon
 
 - Enter Rudania:
     icon: rudania-enter
@@ -45,7 +25,6 @@ Vah Rudania:
 
 - .boss(Fireblight):
     icon: calamity
-    comment: .fury()
     fury: 1
 
 - Daruk's Protection:

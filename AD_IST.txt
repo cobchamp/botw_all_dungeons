@@ -1,0 +1,17 @@
+Initialize 3 Weapon 1 Bow 1 Royal 10 NormalArrow 3 AncientArrow 1 PotLid 2 Pepper 2 HylianShroom 2 Apple 2 Fairy 2 Thistle 2 Princess 2 EnduraCarrot 1 Slate 4 SpiritOrb 1 Glider 
+Equip Weapon in slot 3
+Equip Royal
+Equip Normal
+Equip Pot
+Save
+Sell 2 Pepper 2 HylianShroom 2 Apple 2 Fairy 2 Thistle
+Break 5 Slots
+Sell 2 Princess 2 EnduraCarrot
+Break 2 Slots
+Drop Pot
+Drop Royal
+Drop Bow
+Unequip Weapon
+Reload
+Save
+Reload

@@ -4,30 +4,13 @@ Vah Ruta:
     #line-color: rgb(255,0,0)
     coord: [1513,-2335.5]
 
-- .dir(<<E)
-- _Shop<Buy Flamebreaker Armor>:
-    #line-color: rgb(255,0,0)
-    coord: [1643.34, 490.49, -2404.52]
-    var-change:
-        Rupee: -600
-    notes: .v(Rupee) rupees
-
-- _Material<Fireproof Lizard>:
-    coord: [1685.34, 492.09, -2444.62]
-
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
-
-- _Cook<Fireproof Elixir>:
-    coord: [1710.05, 500.90, -2408.52]
-    comment: Fireproof Lizard, Ancient Core
 
 - .dir(N>, <N turn)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
     notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=3419)
-
-- _Chest<10 Ice Arrow>
 
 - .dir(<<S)
 - _Npc::Goron<Bludo>:
@@ -58,6 +41,7 @@ Vah Ruta:
     coord: [3662.40, 315.66, -175.42]
     time-override: 999
     split-type: UserDefined
+    notes: use falcon bow for ruta assault and shots in ruta (other than boss fight) to save GEB dura
 
 - .gale():
     gale: 1

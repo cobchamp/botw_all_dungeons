@@ -22,10 +22,10 @@ Vah Naboris:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- _Equipment::Bow<Golden Bow>:
-    coord: [-3930.92, 150.48, 2931.11]
-    comment: OPTIONAL
-    notes: For BLSS from Daqa Koh to Zora's Domain. Skip Knight's Bow in Rudania.
+- _Shop<Buy 30 Shock Arrows>:
+    var-change:
+        Rupee: -420
+    notes: .v(Rupee) rupees
 
 - .dir(<<N turn super)
 
@@ -49,49 +49,17 @@ Vah Naboris:
 - _Equipment::Bow<Duplex Bow>:
     coord: [-3510.46, 442.51, 1297.31]
 
-- _Material<Arrow,15>:
-    coord: [-3517.00, 441.28, 1311.00]
-
-- Enter Kohga fight:
-    notes: .link([Tutorial]https://youtu.be/8Q-vJBSBhV0?t=3143)
-
 - .boss(Kohga):
     icon: calamity
     split-type: UserDefined
+    notes: 5 ancient arrows one cycles phases 1 and 2, New metal ball strat to one cycle phase 3
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1331.50]
 
-- _Chest<Rupee,600>:
-    coord: [-3531.14, 443.27, 1351.34]
-    var-change:
-        Rupee: 600
-    notes: .v(Rupee) rupees
-
-- _Material<Topaz and Ruby>
-
-- .gale():
-    gale: 1
-
-- _Material<Mighty Bananas,18>:
-    coord: [-3576.71, 456.27, 1312.26]
+- Clear Ragdoll with bomb
 
 - _Warp::Shrine::DaqoChisay
-
-- _Shop<Sell Topaz and Ruby>:
-    line-color: rgb(128,128,0)
-    coord: [-3858.52, 149.24, 2914.98]
-    var-change:
-        Rupee: 390
-    notes: .v(Rupee) rupees
-
-- _Shop<Buy 30 Shock Arrows>:
-    var-change:
-        Rupee: -420
-    notes: .v(Rupee) rupees
-
-- _Cook<4 Mighty Simmered Fruit>:
-    coord: [-3834.92, 148.98, 2946.04]
 
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
@@ -103,6 +71,9 @@ Vah Naboris:
     comment: At outpost
 
 - Begin Enter Naboris
+
+- .gale() + midair WB:
+    gale: 1
 
 - .dir(Sand seal)
 - Enter Naboris:

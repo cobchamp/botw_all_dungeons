@@ -1,18 +1,16 @@
 Plateau:
-- SOR clip:
-    notes: Do not activate time of day.
-
+- SOR clip
 - .dir(Run)
-
 - .loc(Boko Camp)
-
 - _Material<Spicy Pepper,6>:
     line-color: rgb(204,204,204)
     coord: [-965.30, 238.52, 1956.67]
-
+- _Material<Hylian Shroom,2>:
+    coord: [-958.57, 238.65, 1966.77]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
-
+- _Equipment::Weapon<Torch>:
+    notes: Get Torch if possible, backups later
 - _Equipment::Weapon<Boko Spear>
 
 - .dir(Run and shield surf):
@@ -42,19 +40,26 @@ Plateau:
 - .dir(WB over invisible wall):
     notes: Lag stop looking at forest and fall damage cancel
 
-
-- _Material<Ruby,1>:
-    coord: [-671.65, 171.79, 1522.61]
+#- _Material<Ruby,1>:
+#    coord: [-671.65, 171.79, 1522.61]
 
 - _Shrine::OmanAu
 
 - .dir(BLSS)
+- .loc(Old Man's Hut):
+    coord: [-802.91,2265.5]
+- _Equipment::Weapon<Torch>:
+    notes: Backup if you missed the torch at the boko camp
+- _Equipment::Shield<Pot Lid>:
+    notes: Drop old pot lid, grab fresh pot lid
+- _Material<Apple, 2>:
+    coord: [-856.45, 192.73, 2274.48]
 - .loc(Tree):
     coord: [-839,2273.5]
 
 - .dir(Tree WB)
 - _Shrine::OwaDaim:
-    comment: Skip hammer.
+    comment: Get hammer
 
 - .dir(Boulder Launch + BLSS):
     notes: 8 hits on boulder (4 and 4)

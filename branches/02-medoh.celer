@@ -34,7 +34,7 @@ Vah Medoh:
 - _Shop<General Store>:
     coord: [-3643.01, 290.64, -1823.43]
 - Do IST:
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botw_all_dungeons/istg-2022/AD_IST.txt)
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botw_all_dungeons/ist-2022/AD_IST.txt)
 - Sell 510+ Fairies:
     var-change:
       Rupee: 1020
